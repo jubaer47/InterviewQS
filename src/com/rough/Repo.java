@@ -184,11 +184,21 @@ public class Repo {
     public static String  cucumber = "Cucumber is the Framework you use in order to perform BDD.\n" +
             "using the help of cucumber we are able to write or add feature file into our project. cucumber is written in gherkin syntax. \n" +
             "gherkin is basically a programing language.\n";
+    public static String addcucumber = "I need to have two jar files for that\n" +
+            "1)cucumber with java\n" +
+            "2)cucumber with JUnit\n" +
+            "Although I’m using JUnit I can not import those annotations from JUnit. \nI have to import those JUnit annotations from the jar I added to my project “cucumber-JUnit.”\n";
+    public static String howfeaturefilelookslike = "Feature: Check login process\n" +
+            "  when I provide valid email and password\n" +
+            "  as a customer, i should be logged into Facebook\n" +
+            "  @login\n" +
+            "  Scenario: login\n" +
+            "  Given I open Facebook\n" +
+            "  When I enter my email as \"abc@gmail.com\" And password as \"1234\"\n" +
+            "  Then I should be able to log in";
+    public static String basedonfeaturefile = "In order to write a feature file, we need to follow  BRD.\n";
+    public static String scenariokey = "The scenario keyword is used in order to write any test scenarios. \nin simple words how you going to test your application, what steps, and what are strategies you would take.\n";
     /*public static String  = "";
-    public static String  = "";
-    public static String  = "";
-    public static String  = "";
-    public static String  = "";
     public static String  = "";
     public static String  = "";
     public static String  = "";
